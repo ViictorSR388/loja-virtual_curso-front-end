@@ -1,0 +1,45 @@
+@mixin promocional-banners($color, $url-image) {
+    background-color: $color;
+    background-image: url($url-image);
+}
+
+.static-promocional-banners {
+    margin-top: 30px;
+
+    .static-promocional-banners-12x {
+        @include promocional-banners($pink, "../images/parcele-em-12x.jpg");
+    }
+    .static-promocional-banners-all-over-brazil {
+        @include promocional-banners($purple, "../images/entrega-para-todo-brasil.jpg");
+    }
+
+    .static-promocional-banners-12x,
+    .static-promocional-banners-all-over-brazil {
+        background-size: cover;
+        height: 105px;
+        padding: 20px 60px;
+        color: $white;
+
+        svg, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        svg {
+            // font-size: 55px;
+            width: 50px;
+            height: 50px;
+        }
+
+        p {
+            font-weight: 100;
+            font-size: 23px;
+            line-height: 110%;
+            margin-left: 20px;
+
+            strong {
+                font-weight: bold;
+            }
+        }
+    }
+}
