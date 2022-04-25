@@ -1,0 +1,44 @@
+nav.nav-products {
+    background: $secundary-color;
+    color: $white;
+
+    a {
+        color: $white;
+    }
+
+    ul.nav {
+        li {
+            position: relative;
+            padding: 10px;
+
+            svg {
+                margin-right: 20px;
+                font-size: 20px;
+            }
+
+            &:hover {
+                background: darken($color: $secundary-color, $amount: 30);
+                ul.nav {
+                    display: block;
+                }
+            }
+
+            ul.nav {
+                display: none;
+                
+                position: absolute;
+                z-index: 999;
+                top: 44px;
+                left: 0px;
+
+                background: $secundary-color;
+                border-top: solid $primary-color 10px;
+
+                width: 100%;
+                li {
+                    padding: 10px 25px;
+                }
+            }
+        }
+    }
+}

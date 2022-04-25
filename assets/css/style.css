@@ -10349,5 +10349,246 @@ a.text-dark:focus, a.text-dark:hover {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+header {
+  background: #FFC107;
+  padding: 25px;
+}
+header form input[type=text] {
+  background: #FFF;
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 100px;
+  border: none;
+}
+header form button {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 25px;
+}
+header ul li {
+  position: relative;
+}
+header ul li span.notifications {
+  position: absolute;
+  top: -10px;
+  left: 1px;
+  background-color: #FF0F9A;
+  color: white;
+  font-size: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 100px;
+}
+header ul li a {
+  color: #343A40;
+  font-weight: bold;
+}
+header ul li a svg {
+  font-size: 23px;
+}
+header ul li a:hover {
+  color: initial;
+}
+
+nav.nav-products {
+  background: #343A40;
+  color: #FFF;
+}
+nav.nav-products a {
+  color: #FFF;
+}
+nav.nav-products ul.nav li {
+  position: relative;
+  padding: 10px;
+}
+nav.nav-products ul.nav li svg {
+  margin-right: 20px;
+  font-size: 20px;
+}
+nav.nav-products ul.nav li:hover {
+  background: black;
+}
+nav.nav-products ul.nav li:hover ul.nav {
+  display: block;
+}
+nav.nav-products ul.nav li ul.nav {
+  display: none;
+  position: absolute;
+  z-index: 999;
+  top: 44px;
+  left: 0px;
+  background: #343A40;
+  border-top: solid #FFC107 10px;
+  width: 100%;
+}
+nav.nav-products ul.nav li ul.nav li {
+  padding: 10px 25px;
+}
+
+.static-promocional-banners {
+  margin-top: 30px;
+}
+.static-promocional-banners .static-promocional-banners-12x {
+  background-color: #FF0F9A;
+  background-image: url("../images/parcele-em-12x.jpg");
+}
+.static-promocional-banners .static-promocional-banners-all-over-brazil {
+  background-color: #B343C3;
+  background-image: url("../images/entrega-para-todo-brasil.jpg");
+}
+.static-promocional-banners .static-promocional-banners-12x,
+.static-promocional-banners .static-promocional-banners-all-over-brazil {
+  background-size: cover;
+  height: 105px;
+  padding: 20px 60px;
+  color: #FFF;
+}
+.static-promocional-banners .static-promocional-banners-12x svg, .static-promocional-banners .static-promocional-banners-12x p,
+.static-promocional-banners .static-promocional-banners-all-over-brazil svg,
+.static-promocional-banners .static-promocional-banners-all-over-brazil p {
+  margin: 0;
+  padding: 0;
+}
+.static-promocional-banners .static-promocional-banners-12x svg,
+.static-promocional-banners .static-promocional-banners-all-over-brazil svg {
+  width: 50px;
+  height: 50px;
+}
+.static-promocional-banners .static-promocional-banners-12x p,
+.static-promocional-banners .static-promocional-banners-all-over-brazil p {
+  font-weight: 100;
+  font-size: 23px;
+  line-height: 110%;
+  margin-left: 20px;
+}
+.static-promocional-banners .static-promocional-banners-12x p strong,
+.static-promocional-banners .static-promocional-banners-all-over-brazil p strong {
+  font-weight: bold;
+}
+
+.products h1 {
+  margin-top: 30px;
+}
+.products .products-container {
+  margin: 30px 0;
+}
+.products .products-container .product-items {
+  color: #343A40;
+}
+.products .products-container .product-items h2 {
+  font-size: 20px;
+  margin: 10px 0 0;
+}
+.products .products-container .product-items .product-stars {
+  font-size: 10px;
+}
+.products .products-container .product-items .product-stars svg {
+  fill: #FFC107;
+}
+.products .products-container .product-items .product-price {
+  font-size: 16px;
+}
+.products .btn {
+  margin-bottom: 30px;
+}
+
+.product-buy figure {
+  margin: 0;
+}
+.product-buy .product-content h1 {
+  margin: 0;
+  font-size: 32px;
+}
+.product-buy .product-content p {
+  font-size: 16px;
+}
+.product-buy .product-price .product-stars svg {
+  fill: #FFC107;
+}
+.product-buy .product-price strong {
+  font-size: 40px;
+}
+.product-buy .product-price form {
+  font-weight: 100;
+}
+.product-buy .product-price form label {
+  margin: 0;
+}
+.product-buy .product-price .product-stars svg, .product-buy .product-price strong span, .product-buy .product-price form {
+  font-size: 16px;
+}
+
+footer {
+  background: #343A40;
+  padding: 25px 0;
+  color: #FFF;
+}
+footer a {
+  color: #FFF;
+}
+footer a:hover {
+  color: #FFF;
+}
+footer h4 {
+  font-size: 20px;
+  color: #FFC107;
+}
+footer ul li.ellipsis {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 375px) {
+  .static-promocional-banners .static-promocional-banners-12x p,
+.static-promocional-banners .static-promocional-banners-all-over-brazil p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  header form {
+    margin: 20px 0;
+  }
+
+  #promocional-banners {
+    display: none;
+  }
+
+  .products-container img {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  header ul li {
+    margin: 6px 5px;
+  }
+}
+.breadcrumb {
+  background: initial;
+  margin: 40px 0;
+  padding: 0;
+}
+.breadcrumb a {
+  color: #FF0F9A;
+}
+
+body {
+  color: #343A40;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin: 10px 0;
+}
 
 /*# sourceMappingURL=style.css.map */
