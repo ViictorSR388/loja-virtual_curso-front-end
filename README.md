@@ -30,4 +30,6 @@ Pagina com detalhe e compra do produto:
 
 <h3>O site também conta com responsividade</h3>
 
-![QRCode](https://user-images.githubusercontent.com/71882342/165092034-73e32b84-0df1-4706-8a21-ad413a94b6e0.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/71882342/165092034-73e32b84-0df1-4706-8a21-ad413a94b6e0.png">
+</p>
