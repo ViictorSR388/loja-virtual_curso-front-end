@@ -1,0 +1,40 @@
+@media (max-width: 375px) {
+    .static-promocional-banners {
+        .static-promocional-banners-12x,
+        .static-promocional-banners-all-over-brazil {
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 767px) {
+    header {
+        form {
+            margin: 20px 0;
+        }
+
+    }
+
+    #promocional-banners {
+        display: none;
+    }
+
+    .products-container img {
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 991px) {
+    header {
+        ul {
+            li {
+                margin: 6px 5px;
+            }
+        }
+    }
+}

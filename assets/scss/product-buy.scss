@@ -1,0 +1,39 @@
+.product-buy {
+    figure {
+        margin: 0;
+    }
+    
+    .product-content {
+        h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .product-price {
+        .product-stars {
+            svg {
+                fill: $yellow;
+            }
+        }
+
+        strong {
+            font-size: 40px;
+        }
+
+        form {
+            font-weight: 100;
+            label {
+                margin: 0;
+            }
+        }
+
+        .product-stars svg, strong span, form {
+            font-size: 16px;
+        }
+    }
+}
